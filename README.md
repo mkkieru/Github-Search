@@ -1,27 +1,39 @@
-# GithubClone
+# Quotes
+#### Quotes, July 19 2021
+#### By **Mark kieru**
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
- 
-## Development server
+## Description
+- This is an angular quotes app. It allows users to input their own quotes and display them on the webpage together with the existing ones. Users can also upvote or downvote a quote.
+## Behaviour Driven Development(BDD)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+| Input                        | Ouput                                                                                            |
+|--------------------------    |----------------------------------------------------------------------------------------------    |
+| User clicks Post  Quote      | Quote form displays with input fields for Author, Publisher                                      |
+| User Clicks Delete           | The quote is purged from view                                                                    |
+| User clicks Upvote           | upvote is incremented value by   1 on each click                                                 |
+| User clicks Downvote         | downvote is decremented value by 1 on each click                                                 |
 
-## Code scaffolding
+## Setup/Installation requirements
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Clone  or download and unzip the repository from github,[https://github.com/mkkieru/Quotes.git]
+- If you have git Use this command `git clone https://github.com/mkkieru/Quotes.git` to clone the project.
+- Run ng serve from your terminal
 
-## Build
+## Live Demo
+To view the page click on the link below
+https://mkkieru.github.io/Quotes
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Technologies Used
+- Angular CLI
 
-## Running unit tests
+## Known Bugs
+- There are no known bugs currently. The page works as expected.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Support and Contact Details
+- For any comments,suggestions,feedback or inquiries, contact me via email:mkkieru55@gmail.com
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+- Make contributions to the code.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## License
+- This project is licensed under the MIT Open Source license Copyright (c) 2021. [Mark Kieru]
