@@ -1,7 +1,14 @@
     <br>
 
-    <form style="text-align: center;" class='searchbox'>
-        SEARCH FOR A USER <input type="text" [(ngModel)]='userName'
+    <form style="text-align: center; font-family: Arial, Helvetica, sans-serif;" class='searchbox'>
+
+       <h1>
+        SEARCH FOR A USER
+       </h1>
+        
+        <br>
+
+        <input type="text" [(ngModel)]='userName'
         name='userName'(keyup)='Profile()' class="Search">
     </form>
 
@@ -9,7 +16,7 @@
 
     <div class="container" *ngIf='profile'>
         <div class='card info'>
-            <div style="text-align: center;"  class="card-header">
+            <div style="text-align: center; background-color: #04AA6D;"  class="card-header">
                 {{profile.login}}
             </div>
 
@@ -42,8 +49,8 @@
 
         <br>
 
-        <div class="card info" *ngIf="profile.public_repos">
-            <div style="text-align: center;" class="card-header">
+        <div style="font-family: Arial, Helvetica, sans-serif;" class="card info" *ngIf="profile.public_repos">
+            <div style="text-align: center;  background-color: #04AA6D;" class="card-header">
                 Repositories
             </div>
             <div style="text-align: center;" class="card-body " *ngFor="let repo of repos">
