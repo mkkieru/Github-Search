@@ -1,0 +1,61 @@
+    <br>
+
+    <form style="text-align: center;" class='searchbox'>
+        SEARCH FOR A USER <input type="text" [(ngModel)]='userName'
+        name='userName'(keyup)='Profile()' class="Search">
+    </form>
+
+    <br>
+
+    <div class="container" *ngIf='profile'>
+        <div class='card info'>
+            <div style="text-align: center;"  class="card-header">
+                USERNAME: {{profile.login}}
+            </div>
+
+            <div class="card-body info">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img [src]='profile.avatar_url' [title]='profile.name' class="img-responsive profileimage">
+                    </div>
+
+                    <br>
+
+                    <div class="col-md-8">
+                        <ul class="list-group">
+                            <li class="list-group-item"><strong>Username: </strong> {{profile.login}}</li>
+                            <li class="list-group-item"><strong>Created: </strong> {{profile.created_at | dateCount}}</li> 
+                        </ul>
+
+                        <br>
+    
+                        <div class="stats">
+                            <button>{{profile.followers}} followers</button>
+                            <button>{{profile.following}} Following</button>
+                            <button>{{profile.public_repos}} Public Repos</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="card info" *ngIf="profile.public_repos">
+            <div style="text-align: center;" class="card-header">
+                Repositories
+            </div>
+            <div class="card-body " *ngFor="let repo of repos">
+                
+                        <h3>{{repo.name}}</h3>
+                        <p>Created: {{repo.created_at | dateCount}}</p>
+                        <p>Language Used: {{repo.language}}</p>
+                        <p>{{repo.description}}</p>
+                        <button><a href="{{repo.html_url}}" target="_blank" >GitHub</a></button>
+
+                        <hr>
+                    
+            </div>
+
+        </div>
