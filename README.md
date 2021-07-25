@@ -1,5 +1,5 @@
-# Quotes
-#### Quotes, July 19 2021
+# Github-Api
+#### Github-Api, July 25 2021
 #### By **Mark kieru**
 
 ## Description
@@ -17,13 +17,13 @@ https://mkkieru.github.io/Quotes
 
 ## Technologies Used
 - Angular CLI
+- Typescript
 
 ## Known Bugs
 - There are no known bugs currently. The page works as expected.
 
 ## Support and Contact Details
 - For any comments,suggestions,feedback or inquiries, contact me via email:mkkieru55@gmail.com
-
 
 - Make contributions to the code.
 
