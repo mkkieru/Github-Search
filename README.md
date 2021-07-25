@@ -3,20 +3,12 @@
 #### By **Mark kieru**
 
 ## Description
-- This is an angular quotes app. It allows users to input their own quotes and display them on the webpage together with the existing ones. Users can also upvote or downvote a quote.
-## Behaviour Driven Development(BDD)
-
-| Input                        | Ouput                                                                                            |
-|--------------------------    |----------------------------------------------------------------------------------------------    |
-| User clicks Post  Quote      | Quote form displays with input fields for Author, Publisher                                      |
-| User Clicks Delete           | The quote is purged from view                                                                    |
-| User clicks Upvote           | upvote is incremented value by   1 on each click                                                 |
-| User clicks Downvote         | downvote is decremented value by 1 on each click                                                 |
+- This is an angular app. It allows users to search for a user in Github without having to visit the site.
 
 ## Setup/Installation requirements
 
-- Clone  or download and unzip the repository from github,[https://github.com/mkkieru/Quotes.git]
-- If you have git Use this command `git clone https://github.com/mkkieru/Quotes.git` to clone the project.
+- Clone  or download and unzip the repository from github,[https://github.com/mkkieru/Github-Search.git]
+- If you have git Use this command `git clone https://github.com/mkkieru/Github-Search.git` to clone the project.
 - Run ng serve from your terminal
 
 ## Live Demo
