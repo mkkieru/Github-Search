@@ -1,17 +1,13 @@
 img{
-    border-radius:150px;
+    border-radius:50px;
     height: 200px;
     width: 200px;
 }
-.searchbox{
-    color: rgb(0, 0, 0);
-    font-family: sans-serif;
-    margin: .5px;
-}
+
 button{
     
-    background-color: bisque;
-    border-radius: 0.5em;
+    background-color: #04AA6D;
+    border-radius: 0.3em;
     margin-left: 0.5rem;
     text-align: center;
     color: red;

@@ -1,4 +1,4 @@
-/*.container {
+.container {
     color: rgb(40, 136, 173);
 }
 .repos{
@@ -28,4 +28,4 @@ body{
     background-position: contain;
     background-repeat: no-repeat;
     backface-visibility: visible;
-}*/
+}

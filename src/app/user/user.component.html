@@ -10,7 +10,7 @@
     <div class="container" *ngIf='profile'>
         <div class='card info'>
             <div style="text-align: center;"  class="card-header">
-                USERNAME: {{profile.login}}
+                {{profile.login}}
             </div>
 
             <div class="card-body info">
@@ -46,13 +46,13 @@
             <div style="text-align: center;" class="card-header">
                 Repositories
             </div>
-            <div class="card-body " *ngFor="let repo of repos">
+            <div style="text-align: center;" class="card-body " *ngFor="let repo of repos">
                 
                         <h3>{{repo.name}}</h3>
                         <p>Created: {{repo.created_at | dateCount}}</p>
                         <p>Language Used: {{repo.language}}</p>
                         <p>{{repo.description}}</p>
-                        <button><a href="{{repo.html_url}}" target="_blank" >GitHub</a></button>
+                        <button><a style="color: black;" href="{{repo.html_url}}" target="_blank" >GitHub</a></button>
 
                         <hr>
                     

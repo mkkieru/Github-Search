@@ -17,16 +17,18 @@ export class RepoComponent implements OnInit {
   }
 
  
-  repository() {
+  findRepo() {
     this.userService.UpdateRepo(this.reposName);
     this.userService.searchrepos().subscribe(repo => {
+
+    //  this.reposItems = String;
     this.reposItems = this.reposItems['items'];
      console.log(this.reposItems);
     })
   }
 
  ngOnInit() {
-   this.repository()
+   this.findRepo()
  }
 
 }
