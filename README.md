@@ -18,6 +18,9 @@ https://mkkieru.github.io/Quotes
 ## Technologies Used
 - Angular CLI
 - Typescript
+- JavaScript
+- HTML
+- CSS
 
 ## Known Bugs
 - There are no known bugs currently. The page works as expected.
