@@ -3,7 +3,7 @@
 #### By **Mark kieru**
 
 ## Description
-- This is an angular app. It allows users to search for a user in Github without having to visit the site.
+- This is an angular app. It allows users to search for a user in Github without having to visit the Github site.
 
 ## Setup/Installation requirements
 
@@ -13,8 +13,7 @@
 
 ## Live Demo
 To view the page click on the link below
-https://mkkieru.github.io/Quotes
-
+https://mkkieru.github.io/Github-Search/
 ## Technologies Used
 - Angular CLI
 - Typescript
